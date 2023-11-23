@@ -1,4 +1,5 @@
 import react from 'react';
+import VillanContent from '../sub/VillanContent';
  
 const Villan = () => {
     return (
@@ -15,6 +16,7 @@ const Villan = () => {
                 
 
             </video>
+            <VillanContent/>
 
         </div>
     )
