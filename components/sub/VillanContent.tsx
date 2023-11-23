@@ -15,7 +15,7 @@ const VillanContent = () => {
             variants={slideInFromTop}
             className="Welcom-box py-[15px] px-[4px] border border-[#7042f88b] opacity-[0.9]"
             > 
-                <SparklesIcon className="text-[#b49bff]" />
+                <SparklesIcon className="text-[#b49bff] mr-[10px] h-5 m-[" />
                  </motion.div>
              
             </div>  
