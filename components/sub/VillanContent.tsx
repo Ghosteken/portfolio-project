@@ -28,14 +28,14 @@ const VillanContent = () => {
         >
           
           Providing
-          <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500" > the best </span>project experience
+          <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500" > the best </span>project exprience
           
         </motion.div>
         <motion.p
           variants={slideInFromLeft(0.8)}
           className="text-lg text-gray-400 my-5 max-w-[600px] "
         >
-          I&apos;m a Backend Software Engineer with experience in Website,
+          I&apos;m a Backend Software Engineer with exprience in Website,
           and Software development. Check out my project and skills.
 
         </motion.p>

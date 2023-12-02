@@ -1,4 +1,6 @@
+import { Frontend_skill } from '@/constants'
 import React from 'react'
+import SkillDataProvider from '../sub/SkillDataProvider'
 
 
 function Skills() {
@@ -9,8 +11,17 @@ function Skills() {
        style={{transform:'scale(0.9)'}}
        >
         <div 
-         className='flex flex-row justify-around flex-wrap mt-4 gap-5 items-center'
-         >
+         className='flex flex-row justify-around flex-wrap mt-4 gap-5 items-center'>
+         {Frontend_skill.map((image,index) =>(
+            <SkillDataProvider
+            src={image.Image}
+            key={index}
+            width={image.width}
+            height={image.height}
+            index={index}
+            />
+         ))}
+         
 
         </div>
         
