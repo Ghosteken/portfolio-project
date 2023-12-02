@@ -28,7 +28,7 @@ export const StarBackground = (props: any) => {
     });
 
     return (
-        <group rotation={[0, 0, Math.PI / 4]} >
+        <group rotation={[0, 0, Math.PI/4]} >
             <Points
                 ref={ref}
                 position={sphere}
