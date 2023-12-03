@@ -1,3 +1,4 @@
+import Encryption from "@/components/main/Encryption";
 import Skills from "@/components/main/Skills";
 import Villan from "@/components/main/Villan";
 
@@ -7,6 +8,7 @@ export default function Home() {
       <div className="flex flex-col  gap-20" >
         <Villan/>
         <Skills/>
+        <Encryption/>
       </div>
       
     </main>
