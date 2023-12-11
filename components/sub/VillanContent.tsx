@@ -20,7 +20,7 @@ const VillanContent = () => {
 
         >
           <SparklesIcon className="text-[#b49bff] mr-[10px] h-5 w-5" />
-          <h1 className="Welcome-text |13px| " >Backend-Developer Portfolio</h1>
+          <h1 className="Welcome-text |13px| " >Software Engineer/Developer </h1>
         </motion.div>
         <motion.div
           variants={slideInFromLeft(0.5)}
@@ -37,8 +37,8 @@ const VillanContent = () => {
           variants={slideInFromLeft(0.8)}
           className="text-lg text-gray-400 my-5 max-w-[600px]"
         >
-          I&apos;m a Backend Software Engineer with exprience in Website,
-          and Software development. Check out my project and skills.
+          I&apos;m a  Software Engineer with exprience in Website,
+          and Software development. Check out my projects and skills.
 
         </motion.p>
         <motion.a

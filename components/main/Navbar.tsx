@@ -8,16 +8,16 @@ const Navbar = () => {
         <div className='h-full w-full flex flex-row items-center justify-between m-auto px-[10px]'>
             <a href="#about me" className='h-auto w-auto flex flex-row items-center' >
             <Image
-            src='/NavLogo.png' 
+            src='/down.png' 
             alt='logo'
-            width={70}
-            height={70}
+            width={50}
+            height={50}
             className='cursor-pointer hover:animate-slowspin '
             />    
             
             <span className='font-bold ml-[10px] hidden md:block text-gray-300' >
 
-                Ghosteken
+                Aigberua Nicholas
             </span>
 
 

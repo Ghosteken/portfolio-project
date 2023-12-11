@@ -8,9 +8,11 @@ interface Props{
 }
 
 function ProjectCard({src, title, description}: Props) {
+  
   return (
     <div className='relative overflow-hidden rounded-lg shadow-lg border border-[#2A0E61]' >
         <Image
+        
         src={src}
         alt={title}
         width={900}

@@ -9,20 +9,16 @@ function Projects() {
 
         </h1>
         <div className='h-full w-full flex flex col md:flex-row gap-10 px-10' ></div>
-        <ProjectCard
-        src='/NextWebsite.png'
-        title='Modern Nextjs Portfolio'
-        description='this is my new project portfolio using nextjs'
-        />
-        <ProjectCard
+        
+        {/* <ProjectCard
         src='/CardImage.png'
         title='Interactive Websites Card'
         description='website card with efficient effects'
-        />
+        /> */}
         <ProjectCard
         src='/SpaceWebsite.png'
-        title='Space theme websites'
-        description='other theme stuffs'
+        title=' My Space theme portfolio website'
+        description=''
         />
 
     </div>
