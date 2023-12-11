@@ -81,17 +81,21 @@ export const Skill_data = [
   ];
   
   export const Socials = [
+    
     {
-      name: "Discord",
+      name: "Instagram",
       src: "/instagram.svg",
+      link: 'https://www.instagram.com/_thereal_one_/',
     },
     {
       name: "Facebook",
       src: "/facebook.svg",
+      link: 'https://www.facebook.com/nicholas.aigberua.52',
     },
     {
-      name: "Instagram",
+      name: "Discord",
       src: "/discord.svg",
+      link: 'https://discord.com/channels/@deathcallet9',
     },
   ];
   
